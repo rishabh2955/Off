@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Dosis:600|Roboto+Slab:100,300,400,700");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap');
 article,
 aside,
 details,
@@ -2294,7 +2294,7 @@ html.touch .links a.tap {
 }
 
 .main-image{
-  width:32vw;
+  width:34vw;
   height: auto;
   align-items: center ;
   box-shadow: #000000;
@@ -2313,7 +2313,7 @@ html.touch .links a.tap {
   margin: auto;
   text-align: left;
   flex-direction: column;
-  padding:80px 0px;
+  padding: 20px 0px 110px 0px;
   display:flex;
   justify-content: center;
 }
@@ -2335,17 +2335,16 @@ html.touch .links a.tap {
 .row.header.introduction
 {
   text-align:center;
-  margin-bottom:64px;
+  margin-bottom: 32px;
 }
 
 .header-image
 {
-  
-  height:151px;
+  width: 360px;
   position:relative;
   display: block;
-  background-repeat: no-repeat;
-  background-image: url("../images/introduction/Header.svg");
+  text-align: left;
+  margin-bottom: 32px;
 }
 .Iheader-image
 {
@@ -2371,10 +2370,11 @@ html.touch .links a.tap {
 {
   display: block;
   font-family: 'Kanit', cursive;
-  font-size: 24px;
+  font-size: 21px;
   font-weight:300;
-  line-height:140%;
+  line-height:150%;
   padding-bottom:32px;
+  opacity: 0.8;
 }
 .row.day
 {
@@ -2431,21 +2431,22 @@ html.touch .links a.tap {
   flex-wrap: wrap;
 }
 .content{
-  text-align:left;
-  background-color: #A95100;
-  border:#A95100 1px solid;
-  border-radius: 12px;
-  padding:24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
+    text-align: left;
+    background-color: rgba(255,255,255,0.15);
+    /* border: #A95100 1px solid; */
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 12px;
 }
 .content .Name{
   font-size:24px;
   font-family: 'Kanit', cursive;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 100%;
-  margin-bottom:16px;
+  margin-bottom:12px;
 }
 .content .number{
   font-size:16px;
@@ -2456,7 +2457,7 @@ html.touch .links a.tap {
 .icard
 {
   width: 100%;
-  border-radius: 24px;
+  border-radius: 16px;
   background-color: #ffffff;
   display:flex;
   flex-direction: column;
@@ -2464,8 +2465,7 @@ html.touch .links a.tap {
   padding-bottom:24px;
   margin-right:48px;
   margin-bottom:48px;
- 
-
+  min-height: 412px;
 }
 .icard.intro
 {
@@ -2497,6 +2497,9 @@ html.touch .links a.tap {
   margin-top:36px;
   line-height:140%;
 }
+.ig-img{
+  max-width: 100%;
+}
 .container.last
 {
   padding-top:0px;
@@ -2507,8 +2510,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 .activity2
@@ -2517,8 +2520,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 
@@ -2528,8 +2531,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 
@@ -2539,8 +2542,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 .activity5
@@ -2549,8 +2552,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 .activity6
@@ -2559,8 +2562,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 .activity7
@@ -2569,8 +2572,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 .activity8
@@ -2579,8 +2582,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 
@@ -2590,8 +2593,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 
@@ -2601,8 +2604,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 
@@ -2612,8 +2615,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 
@@ -2623,8 +2626,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 
@@ -2634,8 +2637,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 
@@ -2645,8 +2648,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 
@@ -2691,8 +2694,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 
@@ -2702,8 +2705,8 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 } 
 .activity17
@@ -2712,14 +2715,14 @@ html.touch .links a.tap {
   width:100%;
   height:263px;
   display:block;
-  border-top-left-radius :24px;
-  border-top-right-radius :24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   background-size:cover;
 }
 .icard #title
 {
   font-family: 'Kanit', cursive;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   color: #333333;
   margin-top: 24px;
@@ -2732,7 +2735,7 @@ html.touch .links a.tap {
 .icard #subtitle
 {
   font-family: 'Kanit', cursive;
-  font-size:22px;
+  font-size:18px;
   font-weight:400;
   color:#777777;
   padding-left:24px;
@@ -2743,7 +2746,7 @@ html.touch .links a.tap {
 .subtext
 {
   font-family: 'Montserrat', cursive;
-  font-size: 32px;
+  font-size: 28px;
   font-weight:600;
   line-height:100%;
 }
@@ -2846,16 +2849,17 @@ body{
 
 .footer .row
 {
-  padding: 1em;
+  padding: 32px;
   justify-content: center;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Kanit", sans-serif;
+
   line-height: 100%;
-  color:#333333;
+  color: #fff;
 }
 
 .team-content{
-  background-color: #DE8C40;
+  background-color: #003963;
 }
 
 .team .second::before{
@@ -2863,8 +2867,8 @@ body{
   height: 100px;
   content:'';
   display: block;
-  Position: relative;
-  background-image:url("../images/Teammates/separator.png");
+  position: relative;
+  background-image:url("../images/separator_2.png");
   background-size: cover;
 }
 .team
@@ -2874,3 +2878,117 @@ body{
 
 .mb-4
 {margin-bottom:1em;}
+
+.main-menu{
+  background: rgba(255,255,255,0.15);
+  padding: 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  width: 540px;
+  border-radius: 0px 0px 32px 32px;
+}
+.main-menu-link{
+  display: inline-block;
+  float: left;
+  padding: 24px;
+  width: 180px;
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.1s ease-in;
+}
+.main-menu-link:hover{
+  opacity: 1;
+  color: #fff !important;
+}
+
+@media(max-width: 800px){
+  .wrapper{
+    display: none;
+  }
+  .header-image {
+    width: 240px;
+  }
+  .left-content p {
+    font-size: 19px;
+    padding-bottom: 24px;
+  }
+  .Wishes {
+    padding: 0px 8px;
+  }
+  .second::before, .third::before {
+    height: 60px;
+  }
+  .Iheader-image{
+    height: 51px;
+    margin-bottom: 32px;
+    background-size: 210px;
+  }  
+  .row.day.tag::before, .row.day.tag1::before, .row.day.tag3::before {
+    background-size: 92px;
+    margin-bottom: 8px;
+  }
+  .subtext {
+    font-size: 22px;
+  }
+  .dark{
+    padding: 0px 8px 20px 8px;
+  }
+  .icard{
+    margin-bottom: 24px;
+    min-height: unset;
+  }
+  .icard #title {
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+  .nopad {    
+    padding: 0px 8px 60px 8px;
+  }
+  .meet-image {
+    height: 91px;
+    background-size: 230px;
+  }
+  .team {
+    padding: 0px 8px 10px 8px;
+  }
+  .content .Name {
+    font-size: 21px;
+  }
+  .content .number {
+    opacity: 0.7;
+  }
+  .footer .row {
+    font-size: 16px;
+  }
+  .main-menu {
+    background: rgba(255,255,255,0.15);
+    width: calc(100vw - 48px);
+    border-radius: 0px 0px 24px 24px;
+  }
+  .main-menu-link {
+    width: 29vw;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .intro-mob{
+    display: block;
+  }
+  .Wishes::before {
+    background-size: 600px;
+    position: absolute;
+    left: 0;
+  }
+}
+
+@media(min-width: 800px){
+  .intro-mob{
+    display: none;
+  }
+}
