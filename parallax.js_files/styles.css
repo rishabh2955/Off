@@ -2655,7 +2655,7 @@ html.touch .links a.tap {
   height: 100px;
   content:'';
   display: block;
-  margin-top:-24px;
+  margin-top:-32px;
   Position: relative;
   background-image:url("../images/day2/seperator.png");
   background-size: cover;
