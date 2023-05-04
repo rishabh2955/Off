@@ -47,9 +47,9 @@
 <body style="position: relative;" data-new-gr-c-s-check-loaded="14.1063.0" data-gr-ext-installed="" style="">
 
 	<div class="main-menu">
-		<a class="main-menu-link" href="#intro">About</a>
-		<a class="main-menu-link" href="#itinerary">Itinerary</a>
-		<a class="main-menu-link" href="#team">Contact</a>
+		<a class="main-menu-link" onclick="scrollToView('#intro')">About</a>
+		<a class="main-menu-link" onclick="scrollToView('#itinerary')">Itinerary</a>
+		<a class="main-menu-link" onclick="scrollToView('#team')">Contact</a>
 	</div>
 
 	<div class="intro-mob">
@@ -540,6 +540,7 @@
 
 
 	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 	<script src="./parallax.js_files/libraries.min.js"></script>
 	<script src="./parallax.js_files/jquery.parallax.js"></script>
 	<script src="https://unpkg.com/colcade@0/colcade.js"></script>
@@ -553,6 +554,13 @@
 	</script>
 
 	<script>
+
+	function scrollToView(section_name){
+		console.log(section_name,99);
+		document.querySelector(section_name).scrollIntoView({ 
+		  behavior: 'smooth' 
+		});
+	}
 
 	
 	var $html = $('html'),
